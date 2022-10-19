@@ -1,7 +1,20 @@
 body {
-    background-color: #FDE480;
-    margin-top: 50px;
+    background-color: #3C3C3C;
+    margin-top: 120px;
     font-family: 'Lato';
+    color: black;
+}
+
+h1 {
+    color: #00FF8A;
+    font-weight:100;
+    font-size: 75px;
+    text-align: center;
+    marign-bottom: 25px;
+}
+
+p {
+    color: white;
 }
 
 .item {
@@ -36,4 +49,12 @@ body {
 
 button:focus {
     border: 1px solid #333;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 50px;
 }
