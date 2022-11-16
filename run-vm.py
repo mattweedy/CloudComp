@@ -23,7 +23,7 @@ resource_client = ResourceManagementClient(credential, subscription_id)
 
 # Constants we need in multiple places: the resource group name and the region
 # in which we provision resources. You can change these values however you want.
-RESOURCE_GROUP_NAME = "PythonLab4"
+RESOURCE_GROUP_NAME = "cloudComputing"
 LOCATION = "japaneast"
 
 # Provision the resource group.
@@ -48,11 +48,11 @@ print(f"Provisioned resource group {rg_result.name} in the {rg_result.location} 
 # can provision the VM.
 
 # Network and IP address names
-VNET_NAME = "python-lab4-vnet"
-SUBNET_NAME = "python-lab4-subnet"
-IP_NAME = "python-lab4-ip"
-IP_CONFIG_NAME = "python-lab4-ip-config"
-NIC_NAME = "python-lab4-nic"
+VNET_NAME = "cloudComp-python-vnet"
+SUBNET_NAME = "cloudComp-python-subnet"
+IP_NAME = "cloudComp-python-ip"
+IP_CONFIG_NAME = "cloudComp-python-ip-config"
+NIC_NAME = "cloudComp-python-nic"
 
 # Obtain the management object for networks
 network_client = NetworkManagementClient(credential, subscription_id)
